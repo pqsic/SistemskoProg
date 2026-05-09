@@ -1,0 +1,28 @@
+N:\rii\6. semestar\sysP\projekat1\bin\Debug\net9.0\projekat1.exe
+N:\rii\6. semestar\sysP\projekat1\bin\Debug\net9.0\projekat1.deps.json
+N:\rii\6. semestar\sysP\projekat1\bin\Debug\net9.0\projekat1.runtimeconfig.json
+N:\rii\6. semestar\sysP\projekat1\bin\Debug\net9.0\projekat1.dll
+N:\rii\6. semestar\sysP\projekat1\bin\Debug\net9.0\projekat1.pdb
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\projekat1.GeneratedMSBuildEditorConfig.editorconfig
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\projekat1.AssemblyInfoInputs.cache
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\projekat1.AssemblyInfo.cs
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\projekat1.csproj.CoreCompileInputs.cache
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\projekat1.dll
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\refint\projekat1.dll
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\projekat1.pdb
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\projekat1.genruntimeconfig.cache
+N:\rii\6. semestar\sysP\projekat1\obj\Debug\net9.0\ref\projekat1.dll
+N:\rii\6. semestar\sistemsko programiranje\projekat1\bin\Debug\net9.0\projekat1.exe
+N:\rii\6. semestar\sistemsko programiranje\projekat1\bin\Debug\net9.0\projekat1.deps.json
+N:\rii\6. semestar\sistemsko programiranje\projekat1\bin\Debug\net9.0\projekat1.runtimeconfig.json
+N:\rii\6. semestar\sistemsko programiranje\projekat1\bin\Debug\net9.0\projekat1.dll
+N:\rii\6. semestar\sistemsko programiranje\projekat1\bin\Debug\net9.0\projekat1.pdb
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.GeneratedMSBuildEditorConfig.editorconfig
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.AssemblyInfoInputs.cache
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.AssemblyInfo.cs
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.csproj.CoreCompileInputs.cache
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.dll
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\refint\projekat1.dll
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.pdb
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.genruntimeconfig.cache
+N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\ref\projekat1.dll
