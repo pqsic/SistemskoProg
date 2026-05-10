@@ -12,9 +12,6 @@ public class CacheManager
         _ttl = ttl;
     }
 
-    // Vraca true ako je rezultat bio u cache-u
-    // Vraca false ako ova nit treba da obradi zahtev
-    // Ostale niti cekaju dok rezultat ne bude spreman (cache stampede zastita)
     public bool TryGet(string key, out int result)
     {
         lock (_lock)
@@ -23,7 +20,6 @@ public class CacheManager
             {
                 if (_cache.TryGetValue(key, out CacheEntry? entry))
                 {
-                    // Unos postoji ali nije jos spreman - cekamo
                     if (!entry.IsReady)
                     {
                         Logger.LogInfo($"Nit ceka na rezultat za '{key}'");
@@ -31,25 +27,21 @@ public class CacheManager
                         continue;
                     }
 
-                    // Unos je spreman ali je istekao TTL
                     if (DateTime.Now - entry.CreatedAt > _ttl)
                     {
                         Logger.LogInfo($"Cache istekao za '{key}', brisemo");
                         _cache.Remove(key);
-                        // Ova nit ce obraditi zahtev
                         _cache[key] = new CacheEntry { IsReady = false };
                         result = 0;
                         return false;
                     }
 
-                    // Unos je spreman i validan
                     Logger.LogInfo($"Cache hit za '{key}'");
                     result = entry.PalindromeCount;
                     return true;
                 }
                 else
                 {
-                    // Nema unosa - ova nit ce obraditi zahtev
                     _cache[key] = new CacheEntry { IsReady = false };
                     result = 0;
                     return false;
@@ -77,7 +69,6 @@ public class CacheManager
     {
         lock (_lock)
         {
-            // Uklanjamo placeholder da sledeca nit moze pokusati ponovo
             _cache.Remove(key);
             Monitor.PulseAll(_lock);
         }

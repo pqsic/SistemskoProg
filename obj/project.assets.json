@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Neda\\.nuget\\packages\\": {},
+    "C:\\Users\\Amar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "N:\\rii\\6. semestar\\sistemsko programiranje\\projekat1\\projekat1.csproj",
+      "projectUniqueName": "C:\\Users\\Amar\\Desktop\\sistemskoProg\\SistemskoProg\\projekat1.csproj",
       "projectName": "projekat1",
-      "projectPath": "N:\\rii\\6. semestar\\sistemsko programiranje\\projekat1\\projekat1.csproj",
-      "packagesPath": "C:\\Users\\Neda\\.nuget\\packages\\",
-      "outputPath": "N:\\rii\\6. semestar\\sistemsko programiranje\\projekat1\\obj\\",
+      "projectPath": "C:\\Users\\Amar\\Desktop\\sistemskoProg\\SistemskoProg\\projekat1.csproj",
+      "packagesPath": "C:\\Users\\Amar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amar\\Desktop\\sistemskoProg\\SistemskoProg\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Neda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -26,3 +26,18 @@ N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\refint\pro
 N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.pdb
 N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\projekat1.genruntimeconfig.cache
 N:\rii\6. semestar\sistemsko programiranje\projekat1\obj\Debug\net9.0\ref\projekat1.dll
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\projekat1.exe
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\projekat1.deps.json
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\projekat1.runtimeconfig.json
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\projekat1.dll
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\projekat1.pdb
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\projekat1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\projekat1.AssemblyInfoInputs.cache
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\projekat1.AssemblyInfo.cs
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\projekat1.csproj.CoreCompileInputs.cache
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\projekat1.sourcelink.json
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\projekat1.dll
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\refint\projekat1.dll
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\projekat1.pdb
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\projekat1.genruntimeconfig.cache
+C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\obj\Debug\net9.0\ref\projekat1.dll

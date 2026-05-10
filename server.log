@@ -425,3 +425,575 @@
 [2026-05-09 19:14:27] [INFO] Obrada zahteva za fajl: 'test.txt'
 [2026-05-09 19:14:27] [INFO] Cache hit za 'test.txt'
 [2026-05-09 19:14:27] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 14:20:37] [INFO] === Palindrome Word Server ===
+[2026-05-10 14:20:37] [INFO] Root folder: C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\files
+[2026-05-10 14:20:38] [INFO] Worker-1 pokrenut
+[2026-05-10 14:20:38] [INFO] Worker-2 pokrenut
+[2026-05-10 14:20:38] [INFO] Worker-3 pokrenut
+[2026-05-10 14:20:38] [INFO] Worker-4 pokrenut
+[2026-05-10 14:20:38] [INFO] HTTP Server pokrenut na http://localhost:5050/
+[2026-05-10 14:20:38] [INFO] Server radi. Pritisni Enter za zaustavljanje...
+[2026-05-10 14:20:47] [INFO] Primljen zahtev: http://localhost:5050/
+[2026-05-10 14:20:47] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 14:20:47] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 14:20:47] [INFO] Odgovor poslat: 400 - Naziv fajla nije naveden. Primer: http://localhost:5050/fajl.txt
+[2026-05-10 14:20:47] [INFO] Primljen zahtev: http://localhost:5050/favicon.ico
+[2026-05-10 14:20:47] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 14:20:47] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 14:20:47] [INFO] Obrada zahteva za fajl: 'favicon.ico'
+[2026-05-10 14:20:47] [INFO] Odgovor poslat: 404 - Fajl 'favicon.ico' nije pronađen.
+[2026-05-10 14:21:02] [ERROR] Greška pri prijemu zahteva: The I/O operation has been aborted because of either a thread exit or an application request.
+[2026-05-10 14:21:02] [INFO] Server zaustavljen.
+[2026-05-10 16:37:01] [INFO] === Palindrome Word Server ===
+[2026-05-10 16:37:01] [INFO] Root folder: C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\files
+[2026-05-10 16:37:01] [INFO] Worker-1 pokrenut
+[2026-05-10 16:37:01] [INFO] Worker-2 pokrenut
+[2026-05-10 16:37:01] [INFO] Worker-3 pokrenut
+[2026-05-10 16:37:01] [INFO] Worker-4 pokrenut
+[2026-05-10 16:37:01] [INFO] HTTP Server pokrenut na http://localhost:5050/
+[2026-05-10 16:37:01] [INFO] Server radi. Pritisni Enter za zaustavljanje...
+[2026-05-10 16:37:30] [INFO] Primljen zahtev: http://localhost:5050/
+[2026-05-10 16:37:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:30] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:37:30] [INFO] Odgovor poslat: 400 - Naziv fajla nije naveden. Primer: http://localhost:5050/fajl.txt
+[2026-05-10 16:37:38] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:38] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:38] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:37:38] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:38] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:37:38] [INFO] Palindrom pronađen: 'radar'
+[2026-05-10 16:37:38] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:37:38] [INFO] Cache upisan za 'test.txt': 3 palindroma
+[2026-05-10 16:37:38] [INFO] Odgovor poslat: 200 - Broj palindroma: 3
+[2026-05-10 16:37:46] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:46] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:46] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:37:46] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:46] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:46] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:47] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:47] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:47] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:37:47] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:47] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:47] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:48] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:48] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:48] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:37:48] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:48] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:48] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:48] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:48] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:48] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:37:48] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:48] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:48] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:49] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:49] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:49] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:37:49] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:49] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:49] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:49] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:49] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:49] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:37:49] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:49] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:49] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:49] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:49] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:49] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:37:49] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:49] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:49] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:49] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:49] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:49] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:37:49] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:49] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:49] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:49] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:49] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:49] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:37:49] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:49] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:49] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:49] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:49] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:49] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:37:49] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:49] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:49] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:50] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:50] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:50] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:37:50] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:50] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:50] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:50] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:50] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:50] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:37:50] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:50] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:50] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:50] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:50] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:50] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:37:50] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:50] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:50] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:50] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:50] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:50] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:37:50] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:50] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:50] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:50] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:50] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:50] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:37:50] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:50] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:50] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:50] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:50] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:50] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:37:50] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:50] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:50] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:50] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:50] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:50] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:37:50] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:50] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:50] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:51] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:51] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:51] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:37:51] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:51] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:51] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:51] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:51] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:51] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:37:51] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:51] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:51] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:51] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:51] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:51] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:37:51] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:51] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:51] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:51] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:51] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:51] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:37:51] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:51] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:51] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:51] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:51] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:51] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:37:51] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:51] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:51] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:37:51] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:37:51] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:37:51] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:37:51] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:37:51] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:37:51] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:40:30] [INFO] Server zaustavljen.
+[2026-05-10 16:40:30] [ERROR] Greška pri prijemu zahteva: The I/O operation has been aborted because of either a thread exit or an application request.
+[2026-05-10 16:40:42] [INFO] === Palindrome Word Server ===
+[2026-05-10 16:40:42] [INFO] Root folder: C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\files
+[2026-05-10 16:40:42] [INFO] Worker-1 pokrenut
+[2026-05-10 16:40:42] [INFO] Worker-2 pokrenut
+[2026-05-10 16:40:42] [INFO] Worker-3 pokrenut
+[2026-05-10 16:40:42] [INFO] Worker-4 pokrenut
+[2026-05-10 16:40:42] [INFO] HTTP Server pokrenut na http://localhost:5050/
+[2026-05-10 16:40:42] [INFO] Server radi. Pritisni Enter za zaustavljanje...
+[2026-05-10 16:40:48] [INFO] Primljen zahtev: http://localhost:5050/
+[2026-05-10 16:40:48] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:40:48] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:40:48] [INFO] Odgovor poslat: 400 - Naziv fajla nije naveden. Primer: http://localhost:5050/fajl.txt
+[2026-05-10 16:40:55] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:40:55] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:40:55] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:40:55] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:40:55] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:40:55] [INFO] Palindrom pronađen: 'radar'
+[2026-05-10 16:40:55] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:40:55] [INFO] Cache upisan za 'test.txt': 3 palindroma
+[2026-05-10 16:40:55] [INFO] Odgovor poslat: 200 - Broj palindroma: 3
+[2026-05-10 16:41:21] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:41:21] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:41:21] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:41:21] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:41:21] [INFO] Cache istekao za 'test.txt', brisemo
+[2026-05-10 16:41:21] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:41:21] [INFO] Palindrom pronađen: 'radar'
+[2026-05-10 16:41:21] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:41:21] [INFO] Cache upisan za 'test.txt': 3 palindroma
+[2026-05-10 16:41:21] [INFO] Odgovor poslat: 200 - Broj palindroma: 3
+[2026-05-10 16:41:25] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:41:25] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:41:25] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:41:25] [INFO] Obrada zahteva za fajl: 'test.txt'
+[2026-05-10 16:41:25] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:41:25] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:42:06] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:42:06] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:42:06] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:42:06] [INFO] Obrada zahteva za fajl: 'palindrom.txt'
+[2026-05-10 16:42:06] [INFO] Odgovor poslat: 404 - Fajl 'palindrom.txt' nije pronađen.
+[2026-05-10 16:42:06] [INFO] Zahtev obrađen za 2ms (fajl nije nađen)
+[2026-05-10 16:42:38] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:42:38] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:42:38] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:42:38] [INFO] Obrada zahteva za fajl: 'palindrom.txt'
+[2026-05-10 16:42:38] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:42:38] [INFO] Palindrom pronađen: 'radar'
+[2026-05-10 16:42:38] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:42:38] [INFO] Cache upisan za 'palindrom.txt': 3 palindroma
+[2026-05-10 16:42:38] [INFO] Odgovor poslat: 200 - Broj palindroma: 3
+[2026-05-10 16:42:38] [INFO] Zahtev obrađen za 21ms
+[2026-05-10 16:42:54] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:42:54] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:42:54] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:42:54] [INFO] Obrada zahteva za fajl: 'palindrom.txt'
+[2026-05-10 16:42:54] [INFO] Cache istekao za 'palindrom.txt', brisemo
+[2026-05-10 16:42:54] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:42:54] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:42:54] [INFO] Cache upisan za 'palindrom.txt': 2 palindroma
+[2026-05-10 16:42:54] [INFO] Odgovor poslat: 200 - Broj palindroma: 2
+[2026-05-10 16:42:54] [INFO] Zahtev obrađen za 32ms
+[2026-05-10 16:42:55] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:42:55] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:42:55] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:42:55] [INFO] Obrada zahteva za fajl: 'palindrom.txt'
+[2026-05-10 16:42:55] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:42:55] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:42:55] [INFO] Zahtev obrađen za 1ms (cache hit)
+[2026-05-10 16:44:13] [INFO] Server zaustavljen.
+[2026-05-10 16:44:13] [ERROR] Greška pri prijemu zahteva: The I/O operation has been aborted because of either a thread exit or an application request.
+[2026-05-10 16:44:49] [INFO] === Palindrome Word Server ===
+[2026-05-10 16:44:49] [INFO] Root folder: C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\files
+[2026-05-10 16:44:49] [INFO] Worker-1 pokrenut
+[2026-05-10 16:44:49] [INFO] Worker-2 pokrenut
+[2026-05-10 16:44:49] [INFO] Worker-3 pokrenut
+[2026-05-10 16:44:49] [INFO] Worker-4 pokrenut
+[2026-05-10 16:44:49] [INFO] HTTP Server pokrenut na http://localhost:5050/
+[2026-05-10 16:44:49] [INFO] Server radi. Pritisni Enter za zaustavljanje...
+[2026-05-10 16:45:09] [INFO] Primljen zahtev: http://localhost:5050/
+[2026-05-10 16:45:09] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:09] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:09] [INFO] Odgovor poslat: 400 - Naziv fajla nije naveden.
+[2026-05-10 16:45:09] [INFO] Vreme obrade zahteva '': 11ms
+[2026-05-10 16:45:16] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:16] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:16] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:16] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:45:16] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:45:16] [INFO] Cache upisan za 'palindrom.txt': 2 palindroma
+[2026-05-10 16:45:16] [INFO] Odgovor poslat: 200 - Broj palindroma: 2
+[2026-05-10 16:45:16] [INFO] Vreme obrade zahteva 'palindrom.txt': 24ms
+[2026-05-10 16:45:23] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:23] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:23] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:23] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:23] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:23] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:25] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:25] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:25] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:25] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:25] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:25] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:26] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:26] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:26] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:26] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:26] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:26] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:26] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:26] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:26] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:26] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:26] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:26] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:26] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:26] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:26] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:26] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:26] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:26] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:26] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:26] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:26] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:26] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:26] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:26] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:27] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:27] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:27] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:27] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:27] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:27] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:27] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:27] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:27] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:27] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:27] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:27] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:27] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:27] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:27] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:27] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:27] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:27] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:27] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:27] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:27] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:27] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:27] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:27] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:27] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:27] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:27] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:27] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:27] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:27] [INFO] Vreme obrade zahteva 'palindrom.txt': 2ms
+[2026-05-10 16:45:27] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:27] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:27] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:27] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:27] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:27] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:27] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:27] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:27] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:27] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:27] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:27] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:28] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:28] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:28] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:28] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:28] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:28] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:28] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:28] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:28] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:28] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:28] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:28] [INFO] Vreme obrade zahteva 'palindrom.txt': 0ms
+[2026-05-10 16:45:28] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:28] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:28] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:28] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:28] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:28] [INFO] Vreme obrade zahteva 'palindrom.txt': 0ms
+[2026-05-10 16:45:28] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:28] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:28] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:28] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:28] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:28] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:28] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:28] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:28] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:28] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:28] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:28] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:28] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:28] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:28] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:28] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:28] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:28] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:29] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:29] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:29] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:29] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:29] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:29] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:29] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:29] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:29] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:29] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:29] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:29] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:29] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:29] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:29] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:29] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:29] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:29] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:29] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:29] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:29] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:29] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:29] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:29] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:29] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:29] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:29] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:29] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:29] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:29] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:29] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:29] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:29] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:29] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:29] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:29] [INFO] Vreme obrade zahteva 'palindrom.txt': 0ms
+[2026-05-10 16:45:30] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:30] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:30] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:30] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:30] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:30] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:30] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:30] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:30] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:30] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:30] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:30] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:30] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:30] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:30] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:30] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:30] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:30] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:30] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:30] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:30] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:30] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:30] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:30] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:30] [INFO] Vreme obrade zahteva 'palindrom.txt': 0ms
+[2026-05-10 16:45:30] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:30] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:30] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:30] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:30] [INFO] Vreme obrade zahteva 'palindrom.txt': 0ms
+[2026-05-10 16:45:30] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:30] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:30] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:30] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:30] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:31] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:31] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:31] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:31] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:31] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:31] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:31] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:31] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:31] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:31] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:31] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:31] [INFO] Vreme obrade zahteva 'palindrom.txt': 0ms
+[2026-05-10 16:45:31] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:31] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:31] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:31] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:31] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:31] [INFO] Vreme obrade zahteva 'palindrom.txt': 0ms
+[2026-05-10 16:45:31] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:31] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:31] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:31] [INFO] Cache istekao za 'palindrom.txt', brisemo
+[2026-05-10 16:45:31] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:45:31] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:45:31] [INFO] Cache upisan za 'palindrom.txt': 2 palindroma
+[2026-05-10 16:45:31] [INFO] Odgovor poslat: 200 - Broj palindroma: 2
+[2026-05-10 16:45:31] [INFO] Vreme obrade zahteva 'palindrom.txt': 2ms
+[2026-05-10 16:45:31] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:31] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:31] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:45:31] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:31] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:31] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:31] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:31] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:31] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:45:31] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:31] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:31] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:45:31] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:31] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:32] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:45:32] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:32] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:32] [INFO] Vreme obrade zahteva 'palindrom.txt': 0ms
+[2026-05-10 16:45:32] [INFO] Primljen zahtev: http://localhost:5050/palindrom.txt
+[2026-05-10 16:45:32] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:45:32] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:45:32] [INFO] Cache hit za 'palindrom.txt'
+[2026-05-10 16:45:32] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 2
+[2026-05-10 16:45:32] [INFO] Vreme obrade zahteva 'palindrom.txt': 1ms
+[2026-05-10 16:56:01] [INFO] Server zaustavljen.
+[2026-05-10 16:56:01] [ERROR] Greška pri prijemu zahteva: The I/O operation has been aborted because of either a thread exit or an application request.
+[2026-05-10 16:56:12] [INFO] === Palindrome Word Server ===
+[2026-05-10 16:56:12] [INFO] Root folder: C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\files
+[2026-05-10 16:56:12] [INFO] Worker-1 pokrenut
+[2026-05-10 16:56:12] [INFO] Worker-2 pokrenut
+[2026-05-10 16:56:12] [INFO] Worker-3 pokrenut
+[2026-05-10 16:56:12] [INFO] Worker-4 pokrenut
+[2026-05-10 16:56:12] [INFO] HTTP Server pokrenut na http://localhost:5050/
+[2026-05-10 16:56:12] [INFO] Server radi. Pritisni Enter za zaustavljanje...
+[2026-05-10 16:56:19] [INFO] Server zaustavljen.
+[2026-05-10 16:56:19] [ERROR] Greška pri prijemu zahteva: The I/O operation has been aborted because of either a thread exit or an application request.
+[2026-05-10 16:56:29] [INFO] === Palindrome Word Server ===
+[2026-05-10 16:56:29] [INFO] Root folder: C:\Users\Amar\Desktop\sistemskoProg\SistemskoProg\bin\Debug\net9.0\files
+[2026-05-10 16:56:29] [INFO] Worker-1 pokrenut
+[2026-05-10 16:56:29] [INFO] Worker-2 pokrenut
+[2026-05-10 16:56:29] [INFO] Worker-3 pokrenut
+[2026-05-10 16:56:29] [INFO] Worker-4 pokrenut
+[2026-05-10 16:56:29] [INFO] HTTP Server pokrenut na http://localhost:5050/
+[2026-05-10 16:56:29] [INFO] Server radi. Pritisni Enter za zaustavljanje...
+[2026-05-10 16:57:14] [INFO] Primljen zahtev: http://localhost:5050/
+[2026-05-10 16:57:14] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:57:14] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:57:14] [INFO] Odgovor poslat: 400 - Naziv fajla nije naveden.
+[2026-05-10 16:57:14] [INFO] Vreme obrade zahteva '': 17ms
+[2026-05-10 16:57:20] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:57:20] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:57:20] [INFO] Worker-3 preuzeo zahtev
+[2026-05-10 16:57:20] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:57:20] [INFO] Palindrom pronađen: 'radar'
+[2026-05-10 16:57:20] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:57:20] [INFO] Cache upisan za 'test.txt': 3 palindroma
+[2026-05-10 16:57:20] [INFO] Odgovor poslat: 200 - Broj palindroma: 3
+[2026-05-10 16:57:20] [INFO] Vreme obrade zahteva 'test.txt': 27ms
+[2026-05-10 16:57:23] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:57:23] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:57:24] [INFO] Worker-2 preuzeo zahtev
+[2026-05-10 16:57:24] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:57:24] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:57:24] [INFO] Vreme obrade zahteva 'test.txt': 1ms
+[2026-05-10 16:58:28] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:58:28] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:58:28] [INFO] Worker-4 preuzeo zahtev
+[2026-05-10 16:58:28] [INFO] Cache istekao za 'test.txt', brisemo
+[2026-05-10 16:58:28] [INFO] Palindrom pronađen: 'ana'
+[2026-05-10 16:58:28] [INFO] Palindrom pronađen: 'radar'
+[2026-05-10 16:58:28] [INFO] Palindrom pronađen: 'oko'
+[2026-05-10 16:58:28] [INFO] Cache upisan za 'test.txt': 3 palindroma
+[2026-05-10 16:58:28] [INFO] Odgovor poslat: 200 - Broj palindroma: 3
+[2026-05-10 16:58:28] [INFO] Vreme obrade zahteva 'test.txt': 5ms
+[2026-05-10 16:58:30] [INFO] Primljen zahtev: http://localhost:5050/test.txt
+[2026-05-10 16:58:30] [INFO] Zahtev dodat u queue. Trenutno u queue: 1
+[2026-05-10 16:58:30] [INFO] Worker-1 preuzeo zahtev
+[2026-05-10 16:58:30] [INFO] Cache hit za 'test.txt'
+[2026-05-10 16:58:30] [INFO] Odgovor poslat: 200 - Broj palindroma (iz cache-a): 3
+[2026-05-10 16:58:30] [INFO] Vreme obrade zahteva 'test.txt': 0ms

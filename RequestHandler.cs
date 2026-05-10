@@ -17,54 +17,55 @@ public class RequestHandler
 
     public void Handle(HttpListenerContext context)
     {
-        string? fileName = context.Request.Url?.AbsolutePath.TrimStart('/');
+        var stopwatch = System.Diagnostics.Stopwatch.StartNew(); // POKRENI NA POCETKU
+
+        string fileName = context.Request.Url?.AbsolutePath.TrimStart('/');
 
         if (string.IsNullOrWhiteSpace(fileName))
         {
-            SendResponse(context, 400, "Naziv fajla nije naveden. Primer: http://localhost:5050/fajl.txt");
-            return;
+            SendResponse(context, 400, "Naziv fajla nije naveden.");
         }
-
-        Logger.LogInfo($"Obrada zahteva za fajl: '{fileName}'");
-
-        try
+        else
         {
-            if (_cache.TryGet(fileName, out int cachedResult))
+            try
             {
-                string cachedMsg = cachedResult == 0
-                    ? "Nema palindroma u fajlu."
-                    : $"Broj palindroma (iz cache-a): {cachedResult}";
-                SendResponse(context, 200, cachedMsg);
-                return;
+                if (_cache.TryGet(fileName, out int cachedResult))
+                {
+                    string cachedMsg = cachedResult == 0
+                        ? "Nema palindroma u fajlu."
+                        : $"Broj palindroma (iz cache-a): {cachedResult}";
+                    SendResponse(context, 200, cachedMsg);
+                }
+                else
+                {
+                    string[] files = Directory.GetFiles(_rootFolder, fileName, SearchOption.AllDirectories);
+
+                    if (files.Length == 0)
+                    {
+                        _cache.SetError(fileName);
+                        SendResponse(context, 404, $"Fajl '{fileName}' nije pronađen.");
+                    }
+                    else
+                    {
+                        int count = CountPalindromes(files[0]);
+                        _cache.Set(fileName, count);
+                        string message = count == 0
+                            ? "Nema palindroma u fajlu."
+                            : $"Broj palindroma: {count}";
+                        SendResponse(context, 200, message);
+                    }
+                }
             }
-
-            // Ova nit radi obradu
-            string[] files = Directory.GetFiles(_rootFolder, fileName, SearchOption.AllDirectories);
-
-            if (files.Length == 0)
+            catch (Exception ex)
             {
+                Logger.LogError($"Greška pri obradi '{fileName}': {ex.Message}");
                 _cache.SetError(fileName);
-                SendResponse(context, 404, $"Fajl '{fileName}' nije pronađen.");
-                return;
+                SendResponse(context, 500, "Interna greška servera.");
             }
-
-            string filePath = files[0];
-            int count = CountPalindromes(filePath);
-
-            _cache.Set(fileName, count);
-
-            string message = count == 0
-                ? "Nema palindroma u fajlu."
-                : $"Broj palindroma: {count}";
-
-            SendResponse(context, 200, message);
         }
-        catch (Exception ex)
-        {
-            Logger.LogError($"Greška pri obradi '{fileName}': {ex.Message}");
-            _cache.SetError(fileName);
-            SendResponse(context, 500, "Interna greška servera.");
-        }
+
+        stopwatch.Stop();
+        Logger.LogInfo($"Vreme obrade zahteva '{fileName}': {stopwatch.ElapsedMilliseconds}ms");
     }
 
     private int CountPalindromes(string filePath)
